@@ -1,0 +1,226 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+
+position: sticky;
+top: 0px;
+z-index: 1;
+width: 100%;
+    font-weight: bold !important;
+}
+.nav-link{
+    text-transform: uppercase !important;
+}
+.nav-chk{
+    margin-top: 7px;
+    font-size: 14px;
+
+}
+.chk2{
+
+
+    width: 100%;
+}
+.mainbox{
+ 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+}
+.box1,.box2,.box3{
+    
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 60px;
+    box-shadow: 2px 4px  7px grey;
+justify-content: center;
+text-align: center;
+
+}
+.sizechk{
+    color: aliceblue;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.card img{
+
+    height: 300px;
+    width: 300px;
+}
+.card{
+    width: 300px !important;
+    display: flex;
+    margin-top: 10px;
+  
+
+}
+.row
+{
+    margin-top: 30px;
+    display: flex ;
+    justify-content: space-around;
+   
+
+}
+.col{
+   
+    text-align: center;
+margin-left: 40px;
+}
+.card-title,.btn1{
+    text-align: center;
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+    text-shadow: 2px 2px 4px black;
+}
+.contact{
+ /*   background-color: black;
+   */
+   background-image: url(images/black3.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   display: flex;
+    flex-direction: row;
+}
+.styling{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.phn{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+    margin-left: 20px;
+    margin-bottom: 2px;
+}
+.phn i,.styling i{
+    margin-right: 12px;
+}
+.divchk{
+width: 50%;
+}
+.divchk h3{
+    margin-bottom: 20px;
+}
+.copyright{
+    background-color: deeppink;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+/*---------------------------------------------------------------------------------*/
+.lgin{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+ 
+    background-image: url(images/black3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+color: white;
+}
+.styling-form{
+    
+    width: 50%;
+    padding: 15px;
+}
+.heading1{
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+    text-shadow: 2px 2px 4px white;
+}
+
+.bttnn{
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    top: 15px;
+    left: 15px;
+   
+    color: white;
+ }
+
+
+
+
+.end{
+    display: flex;
+    flex-direction: column;
+text-align: center;
+}
+
+
+
+.transparent-input{
+background-color:transparent !important;
+       border:2px solid white !important;
+    }
+.transparent-input:hover{
+    border:2px solid blue !important;
+color: white;
+}
+
+.transparent-input1{
+    background-color:transparent !important;
+           border:2px solid white !important;
+        }
+    .transparent-input1:hover{
+        border:2px solid blue !important;
+    color: white;
+    }
+
+
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+
+@media only screen and (max-width: 600px) {
+    .navbar{
+        margin: 0px;
+        width: 100%;
+    }
+    .box1,.box2,.box3{
+    width: 100%;
+ 
+}
+    .row{
+        text-align: center;
+margin-left: 15px;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .divchk{
+        margin: 0px;
+        width: 100%;
+    }
+}
